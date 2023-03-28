@@ -1,0 +1,42 @@
+{
+    "name": "@lumeweb/resolver-module-eip137",
+    "version": "0.1.0",
+    "main": "dist/index.js",
+    "type": "module",
+    "scripts": {
+        "build-script": "tsc --project tsconfig.build.json && mv dist-build/build.js dist-build/build.mjs",
+        "compile-module": "npm run build-script && node build.js",
+        "build": "tsc --project tsconfig.json",
+        "build-module": "npm run compile-module && node ./dist-build/build.mjs dev"
+    },
+    "dependencies": {
+        "@lumeweb/ensjs": "^2.1.2",
+        "@lumeweb/kernel-eth-client": "git+https://git.lumeweb.com/LumeWeb/kernel-eth-client.git",
+        "@lumeweb/kernel-libresolver": "git+https://git.lumeweb.com/LumeWeb/kernel-libresolver.git",
+        "@lumeweb/libresolver": "git+https://git.lumeweb.com/LumeWeb/libresolver.git",
+        "ethers": "^6.2.3",
+        "libskynet": "^0.1.9"
+    },
+    "devDependencies": {
+        "@scure/bip39": "^1.2.0",
+        "@skynetlabs/skynet-nodejs": "^2.9.0",
+        "@types/node": "^18.15.10",
+        "@types/read": "^0.0.29",
+        "buffer": "^6.0.3",
+        "cli-progress": "^3.12.0",
+        "crypto-browserify": "^3.12.0",
+        "esbuild": "^0.15.18",
+        "libskynetnode": "^0.1.4",
+        "os-browserify": "^0.3.0",
+        "prettier": "^2.8.7",
+        "process": "^0.11.10",
+        "read": "^1.0.7",
+        "stream-browserify": "^3.0.0",
+        "typescript": "^5.0.2"
+    },
+    "browser": {
+        "crypto": "crypto-browserify",
+        "stream": "stream-browserify",
+        "os": "os-browserify"
+    }
+}
