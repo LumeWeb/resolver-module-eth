@@ -14,7 +14,7 @@
         "@lumeweb/kernel-eth-client": "git+https://git.lumeweb.com/LumeWeb/kernel-eth-client.git",
         "@lumeweb/kernel-libresolver": "git+https://git.lumeweb.com/LumeWeb/kernel-libresolver.git",
         "@lumeweb/libresolver": "git+https://git.lumeweb.com/LumeWeb/libresolver.git",
-        "ethers": "^6.2.3",
+        "ethers": "^6.3.0",
         "libskynet": "^0.1.9"
     },
     "devDependencies": {
@@ -32,7 +32,7 @@
         "process": "^0.11.10",
         "read": "^1.0.7",
         "stream-browserify": "^3.0.0",
-        "typescript": "^5.0.3"
+        "typescript": "^5.0.4"
     },
     "browser": {
         "crypto": "crypto-browserify",
