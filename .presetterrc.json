@@ -1,0 +1,12 @@
+{
+    "preset": [
+        "@lumeweb/presetter-kernel-module-preset"
+    ],
+    "config": {
+        "vite": {
+            "define": {
+                "globalThis.process.env.NODE_ENV": null
+            }
+        }
+    }
+}
