@@ -3,6 +3,7 @@
         "@lumeweb/presetter-kernel-module-preset"
     ],
     "config": {
+        "official": true,
         "vite": {
             "define": {
                 "globalThis.process.env.NODE_ENV": null
