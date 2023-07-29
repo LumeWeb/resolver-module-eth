@@ -9,7 +9,7 @@
             "version": "0.1.0",
             "dependencies": {
                 "@ensdomains/ensjs": "^3.0.0-alpha.65",
-                "@lumeweb/kernel-eth-client": "^0.1.0-develop.12",
+                "@lumeweb/kernel-eth-client": "^0.1.0-develop.13",
                 "@lumeweb/kernel-libresolver": "^0.1.0-develop.3",
                 "crypto-addr-codec": "github:e2xlabs/crypto-addr-serialize",
                 "ethers": "^6.6.3"
@@ -2553,9 +2553,9 @@
             }
         },
         "node_modules/@lumeweb/kernel-eth-client": {
-            "version": "0.1.0-develop.12",
-            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-eth-client/-/kernel-eth-client-0.1.0-develop.12.tgz",
-            "integrity": "sha512-oz30HN2WECcc0iS94SLEOMI4DgWQ/h4IImGSfe+Ls7lfUblqkcwNFxKO1UdJARtG/NL4xyy+XESmgvjBsaZCEA==",
+            "version": "0.1.0-develop.13",
+            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-eth-client/-/kernel-eth-client-0.1.0-develop.13.tgz",
+            "integrity": "sha512-rQ1GjOhOrVwaNSAqpD1E6dlWVfsWIUj6dk/HZfIiHXpMuBjTaFGEE6HjPeybvwjzF4kbRrYZzZfVZUSQsG2JPw==",
             "dependencies": {
                 "@lumeweb/libkernel": "^0.1.0-develop.27",
                 "ethers": "^6.6.3"
