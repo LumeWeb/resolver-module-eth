@@ -18,6 +18,7 @@ export default defineConfig({
   },
   define: {
     "globalThis.process.env.NODE_ENV": null,
+    "window.": "globalThis.",
   },
   resolve: {
     dedupe: ["@lumeweb/libportal", "@lumeweb/libweb", "@lumeweb/libkernel"],
