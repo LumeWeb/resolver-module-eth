@@ -122,6 +122,6 @@ export default class Eth extends AbstractResolverModule {
   }
 
   async ready(): Promise<void> {
-    await ETH_CLIENT.ready();
+    return ((await ETH_CLIENT.status()) as any)?.ready;
   }
 }
