@@ -10,12 +10,12 @@
             "dependencies": {
                 "@ensdomains/ensjs": "^3.0.0-alpha.65",
                 "@lumeweb/kernel-eth-client": "^0.1.0-develop.13",
-                "@lumeweb/kernel-libresolver": "^0.1.0-develop.3",
+                "@lumeweb/kernel-libresolver": "^0.1.0-develop.4",
                 "crypto-addr-codec": "github:e2xlabs/crypto-addr-serialize",
                 "ethers": "^6.6.3"
             },
             "devDependencies": {
-                "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.43",
+                "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.44",
                 "vite-plugin-commonjs": "^0.8.1",
                 "vite-plugin-dynamic-import": "^1.5.0"
             }
@@ -2544,11 +2544,11 @@
             }
         },
         "node_modules/@lumeweb/kernel-dns-client": {
-            "version": "0.1.0-develop.2",
-            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-dns-client/-/kernel-dns-client-0.1.0-develop.2.tgz",
-            "integrity": "sha512-Iz1H5qTQPIq7o4XP+E5K3iFWxcp8Wq6d/qN5Rrb8WT6I25RgTDAkcSTaEXfKNBNFKadpk7TEQQQirhASzkBTmg==",
+            "version": "0.1.0-develop.4",
+            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-dns-client/-/kernel-dns-client-0.1.0-develop.4.tgz",
+            "integrity": "sha512-PjS23UG5uMaheig7QhDu9E8u1IaR4xpdyznnjhErv1F0xH0v+ST8owwkZN7qDT8ksAUPykqiWP03ztmXs3PoQw==",
             "dependencies": {
-                "@lumeweb/libkernel": "^0.1.0-develop.16",
+                "@lumeweb/libkernel": "^0.1.0-develop.31",
                 "@lumeweb/libresolver": "^0.1.0-develop.1"
             }
         },
@@ -2562,12 +2562,12 @@
             }
         },
         "node_modules/@lumeweb/kernel-libresolver": {
-            "version": "0.1.0-develop.3",
-            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-libresolver/-/kernel-libresolver-0.1.0-develop.3.tgz",
-            "integrity": "sha512-L9R697iKcWQk8pixAvSO8kTI5Mybavli24BpuI2UauGRJTSSL09fpKQdTG6KoxG5ne9/n41/UkuJORnXJSu3nQ==",
+            "version": "0.1.0-develop.4",
+            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-libresolver/-/kernel-libresolver-0.1.0-develop.4.tgz",
+            "integrity": "sha512-LCCxgo33/skrGCNQc9Xt5UpB1/C946+GwrE7ij91tc2BP3zaaLNrc+D1xcdHpyZTSTLM7VMqZXrhTZKSbCG0Xg==",
             "dependencies": {
-                "@lumeweb/kernel-dns-client": "^0.1.0-develop.2",
-                "@lumeweb/libkernel": "^0.1.0-develop.14",
+                "@lumeweb/kernel-dns-client": "^0.1.0-develop.4",
+                "@lumeweb/libkernel": "^0.1.0-develop.31",
                 "@lumeweb/libresolver": "^0.1.0-develop.1"
             }
         },
@@ -2656,9 +2656,9 @@
             }
         },
         "node_modules/@lumeweb/presetter-kernel-module-preset": {
-            "version": "0.1.0-develop.43",
-            "resolved": "https://registry.npmjs.org/@lumeweb/presetter-kernel-module-preset/-/presetter-kernel-module-preset-0.1.0-develop.43.tgz",
-            "integrity": "sha512-cRbE+P1R+qc2nUZZRjRcNuqab9bf8cecMp2QGAiqc/OM3C8VsSRatquB77wO+3VyyYNLbo71SBQ2TIxx1q6Mow==",
+            "version": "0.1.0-develop.44",
+            "resolved": "https://registry.npmjs.org/@lumeweb/presetter-kernel-module-preset/-/presetter-kernel-module-preset-0.1.0-develop.44.tgz",
+            "integrity": "sha512-e5vMyTQW/gS93mt9qWqvJTcRYS0Dhi+PdpZR3FMO8y7CEp6f56dwKGz60EXOQOQVBDUqDuipf2KXRDnf0/gjDw==",
             "dev": true,
             "dependencies": {
                 "@lumeweb/node-library-preset": "0.2.7",

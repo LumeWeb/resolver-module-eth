@@ -16,12 +16,12 @@
     "dependencies": {
         "@ensdomains/ensjs": "^3.0.0-alpha.65",
         "@lumeweb/kernel-eth-client": "^0.1.0-develop.13",
-        "@lumeweb/kernel-libresolver": "^0.1.0-develop.3",
+        "@lumeweb/kernel-libresolver": "^0.1.0-develop.4",
         "crypto-addr-codec": "github:e2xlabs/crypto-addr-serialize",
         "ethers": "^6.6.3"
     },
     "devDependencies": {
-        "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.43",
+        "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.44",
         "vite-plugin-commonjs": "^0.8.1",
         "vite-plugin-dynamic-import": "^1.5.0"
     }
