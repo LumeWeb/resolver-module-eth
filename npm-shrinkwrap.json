@@ -10,7 +10,7 @@
             "dependencies": {
                 "@ensdomains/ensjs": "^3.0.0-alpha.65",
                 "@lumeweb/kernel-eth-client": "^0.1.0-develop.14",
-                "@lumeweb/kernel-libresolver": "^0.1.0-develop.6",
+                "@lumeweb/kernel-libresolver": "^0.1.0-develop.7",
                 "crypto-addr-codec": "github:e2xlabs/crypto-addr-serialize",
                 "ethers": "^6.6.3"
             },
@@ -2544,11 +2544,11 @@
             }
         },
         "node_modules/@lumeweb/kernel-dns-client": {
-            "version": "0.1.0-develop.4",
-            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-dns-client/-/kernel-dns-client-0.1.0-develop.4.tgz",
-            "integrity": "sha512-PjS23UG5uMaheig7QhDu9E8u1IaR4xpdyznnjhErv1F0xH0v+ST8owwkZN7qDT8ksAUPykqiWP03ztmXs3PoQw==",
+            "version": "0.1.0-develop.5",
+            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-dns-client/-/kernel-dns-client-0.1.0-develop.5.tgz",
+            "integrity": "sha512-dmMm8izlVD2iSRoq6AwRGmvpMqxtzXvBjq5cXMjFnQc6PkmPRkjcMRQ3sKzE29iMvXnFLQbUlnAnmIBXRj/ZBQ==",
             "dependencies": {
-                "@lumeweb/libkernel": "^0.1.0-develop.31",
+                "@lumeweb/libkernel": "^0.1.0-develop.38",
                 "@lumeweb/libresolver": "^0.1.0-develop.1"
             }
         },
@@ -2562,12 +2562,12 @@
             }
         },
         "node_modules/@lumeweb/kernel-libresolver": {
-            "version": "0.1.0-develop.6",
-            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-libresolver/-/kernel-libresolver-0.1.0-develop.6.tgz",
-            "integrity": "sha512-55r0Ahx2X86oapszTvICvyA8QvzIg6QnyTsNVV9WTkDn88vYAyyT9gsRuXStjCxqqwtx3NqDd8zVasG4/PWqzQ==",
+            "version": "0.1.0-develop.7",
+            "resolved": "https://registry.npmjs.org/@lumeweb/kernel-libresolver/-/kernel-libresolver-0.1.0-develop.7.tgz",
+            "integrity": "sha512-O3H/sdxMWB/qGD8wXbDejoEDTQW8zOD6wOTOLnLfr938UPndbSt18zu+LMxtZZ3M1FpD24qBFVTZNpBJlzGWZg==",
             "dependencies": {
-                "@lumeweb/kernel-dns-client": "^0.1.0-develop.4",
-                "@lumeweb/libkernel": "^0.1.0-develop.32",
+                "@lumeweb/kernel-dns-client": "^0.1.0-develop.5",
+                "@lumeweb/libkernel": "^0.1.0-develop.38",
                 "@lumeweb/libresolver": "^0.1.0-develop.1"
             }
         },
