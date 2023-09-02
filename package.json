@@ -15,7 +15,7 @@
     },
     "dependencies": {
         "@ensdomains/ensjs": "^3.0.0-alpha.65",
-        "@lumeweb/kernel-eth-client": "^0.1.0-develop.13",
+        "@lumeweb/kernel-eth-client": "^0.1.0-develop.14",
         "@lumeweb/kernel-libresolver": "^0.1.0-develop.6",
         "crypto-addr-codec": "github:e2xlabs/crypto-addr-serialize",
         "ethers": "^6.6.3"
