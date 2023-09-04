@@ -1,3 +1,3 @@
 # resolver-module-eth
 
-Module CID: zdiPjHwibnwUgWgJgCt5WvuUQVENnKTCNhhojY8CXREG4yASQnxfWTR6Sb
+Module CID: zdiKvnZYNjDqXaM8uF3pGEs7Tt6jqGc7t7M4eqbvJwpkTnrZymncfUW9Cj
