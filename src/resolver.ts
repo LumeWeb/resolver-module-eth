@@ -93,10 +93,12 @@ export default class Eth extends AbstractResolverModule {
         return resolverError(e);
       }
 
-      records.push({
-        type: DNS_RECORD_TYPE.CONTENT,
-        value: `${content.protocolType}://${content.decoded}` as string,
-      });
+      if (content) {
+        records.push({
+          type: DNS_RECORD_TYPE.CONTENT,
+          value: `${content.protocolType}://${content.decoded}` as string,
+        });
+      }
     }
 
     if ([DNS_RECORD_TYPE.CUSTOM].includes(options.type)) {
