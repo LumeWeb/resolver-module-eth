@@ -1,3 +1,5 @@
+# [1.0.0-develop.8](https://git.lumeweb.com/LumeWeb/resolver-module-eth/compare/v1.0.0-develop.7...v1.0.0-develop.8) (2023-10-12)
+
 # [1.0.0-develop.7](https://git.lumeweb.com/LumeWeb/resolver-module-eth/compare/v1.0.0-develop.6...v1.0.0-develop.7) (2023-09-04)
 
 # [1.0.0-develop.6](https://git.lumeweb.com/LumeWeb/resolver-module-eth/compare/v1.0.0-develop.5...v1.0.0-develop.6) (2023-09-03)
