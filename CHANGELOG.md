@@ -1,3 +1,10 @@
+# [1.0.0-develop.9](https://git.lumeweb.com/LumeWeb/resolver-module-eth/compare/v1.0.0-develop.8...v1.0.0-develop.9) (2023-10-26)
+
+
+### Bug Fixes
+
+* only push a record if we have a content response ([65dffe2](https://git.lumeweb.com/LumeWeb/resolver-module-eth/commit/65dffe202ec82a7bcfd16e959445825ffa136938))
+
 # [1.0.0-develop.8](https://git.lumeweb.com/LumeWeb/resolver-module-eth/compare/v1.0.0-develop.7...v1.0.0-develop.8) (2023-10-12)
 
 # [1.0.0-develop.7](https://git.lumeweb.com/LumeWeb/resolver-module-eth/compare/v1.0.0-develop.6...v1.0.0-develop.7) (2023-09-04)
